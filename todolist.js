@@ -5,7 +5,7 @@ $(function() {
 			$('#emptylist-text').css('display', 'none');
 		}
 		var container = $('<div class="todo-container"><p class="todo-title">' + title + 
-			'</p><button class="todo-delete">X</button><div class="todo-description">' 
+			'</p><button class="todo-delete"><i class="fas fa-times"></i></button><div class="todo-description">' 
 			+ description + '</div></div>');
 
 		container.insertAfter('#todolisttitle');
